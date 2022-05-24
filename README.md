@@ -7,7 +7,7 @@ On the Arduino side, you need to create a small application that reads the seria
 Take a look at this example for instance, that receives commands from the serial port and writes an LCD: https://github.com/cvasquez-github/arduino-serial-to-i2c-lcd
 
 # Java Android USB Serial Library
-I used the following Android USB Serial Library to be able to use the Android USB Serial port in my application.
+I used the usb-serial-for-android-3.4.4.jar Android USB Serial Library to be able to use the Android USB Serial port in my application:
 https://github.com/mik3y/usb-serial-for-android
 
 # Java "Middleware"
