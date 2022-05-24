@@ -33,7 +33,7 @@ public class UnityArduinoLCD : MonoBehaviour
 	private bool running = true;
 	void OnApplicationQuit()
     {
-        running = false:
+        running = false;
     }
 
 	void Update()
