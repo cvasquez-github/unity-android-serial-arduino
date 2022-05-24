@@ -4,7 +4,8 @@ Connect an Arduino board to your Android device and send commands through the se
 
 # Arduino
 On the Arduino side, you need to create a small application that reads the serial port incoming commands and reacts accordingly.
-Take a look at this example for instance, that receives commands from the serial port and writes an LCD: https://github.com/cvasquez-github/arduino-serial-to-i2c-lcd
+Take a look at this example for instance, that receives commands from the serial port and writes to a LCD 16x2 display: 
+https://github.com/cvasquez-github/arduino-serial-to-i2c-lcd
 
 # Java Android USB Serial Library
 I used the usb-serial-for-android-3.4.4.jar Android USB Serial Library to be able to use the Android USB Serial port in my application:
