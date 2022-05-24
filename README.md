@@ -11,10 +11,12 @@ I used the following Android USB Serial Library to be able to use the Android US
 https://github.com/mik3y/usb-serial-for-android
 
 # Java "Middleware"
-You need to write some Java code to be able to community your Unity project with the Arduino.
-In this example I create a custom Unity Activity to expose the necesary lower level methods to Unity.
+You need to write some Java code to be able to communicate your Unity project with the Arduino.
+In this example I create a custom Unity Activity to expose the necesary lower level methods to Unity, take a look at the MyUnityPlayerActivity.java  file for reference.
 
 # Unity
 Then you need to be able to call the Java class methods from Unity.
-
-
+Take a look at the UnityArduinoLCD.cs file, that is the one that talks to the Java code.
+- You first need to get the Unity Player Java Class: AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+- Then get the current activity Java Object out of it: AndroidJavaObject activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+- Finally call the Java method on your current Activity: activity.Call("WriteLCD", new object[] { "line1", "line2" });  
