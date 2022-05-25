@@ -7,10 +7,6 @@ On the Arduino side, you need to create a small application that reads the seria
 Take a look at this example for instance, that receives commands from the serial port and writes to a LCD 16x2 display: 
 https://github.com/cvasquez-github/arduino-serial-to-i2c-lcd
 
-# Java Android USB Serial Library
-I used the Android USB Serial Library (usb-serial-for-android-3.4.4.jar) to be able to use the Android USB serial port in my application:
-https://github.com/mik3y/usb-serial-for-android
-
 # Java "Middleware"
 You need to write some Java code to be able to communicate your Unity project with the Arduino through Android.
 In this example I created a custom Unity Activity to expose the necesary lower level methods to Unity, take a look at the MyUnityPlayerActivity.java  file for reference.
@@ -18,6 +14,10 @@ https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/MyUnit
 
 Make sure you update the activity name in your Android Manifest XML file.
 https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/AndroidManifest.xml
+
+This codes uses the Android USB Serial Library (usb-serial-for-android-3.4.4.jar) to access the USB serial port:
+https://github.com/mik3y/usb-serial-for-android
+
 
 # Unity
 Then you need to be able to call the Java class methods from Unity.
