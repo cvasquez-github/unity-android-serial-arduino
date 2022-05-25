@@ -7,8 +7,8 @@ On the Arduino side, you need to create a small application that reads the seria
 Take a look at this example for instance, that receives commands from the serial port and writes to a LCD 16x2 display: 
 https://github.com/cvasquez-github/arduino-serial-to-i2c-lcd
 
-# Java "Middleware"
-You need to write some Java code to be able to communicate your Unity project with the Arduino through Android.
+# Java
+You need to write some Java code to be able to communicate your Unity project with the Arduino in Android.
 In this example I created a custom Unity Activity to expose the necesary lower level methods to Unity, take a look at the MyUnityPlayerActivity.java  file for reference.
 https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/MyUnityPlayerActivity.java
 
