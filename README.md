@@ -15,7 +15,7 @@ https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/MyUnit
 Make sure you update the activity name in your Android Manifest XML file.
 https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/AndroidManifest.xml
 
-This codes uses the Android USB Serial Library (usb-serial-for-android-3.4.4.jar) to access the USB serial port:
+This code uses the Android USB Serial Library (usb-serial-for-android-3.4.4.jar) to access the USB serial port:
 https://github.com/mik3y/usb-serial-for-android
 
 
