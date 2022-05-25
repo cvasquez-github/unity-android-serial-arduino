@@ -20,7 +20,7 @@ https://github.com/mik3y/usb-serial-for-android
 
 
 # Unity
-Then you need to be able to call the Java class methods from Unity.
+Then you need to call the Java class methods from Unity.
 Take a look at the UnityArduinoLCD.cs file, that is the one that talks to the Java code.
 https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/UnityArduinoLCD.cs
 
