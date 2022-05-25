@@ -12,7 +12,7 @@ I used the Android USB Serial Library (usb-serial-for-android-3.4.4.jar) to be a
 https://github.com/mik3y/usb-serial-for-android
 
 # Java "Middleware"
-You need to write some Java code to be able to communicate your Unity project with the Arduino.
+You need to write some Java code to be able to communicate your Unity project with the Arduino through Android.
 In this example I created a custom Unity Activity to expose the necesary lower level methods to Unity, take a look at the MyUnityPlayerActivity.java  file for reference.
 Make sure you update the activity name in your Android Manifest XML file.
 
