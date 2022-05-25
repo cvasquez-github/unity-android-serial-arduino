@@ -17,6 +17,7 @@ In this example I created a custom Unity Activity to expose the necesary lower l
 https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/MyUnityPlayerActivity.java
 
 Make sure you update the activity name in your Android Manifest XML file.
+https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/AndroidManifest.xml
 
 # Unity
 Then you need to be able to call the Java class methods from Unity.
