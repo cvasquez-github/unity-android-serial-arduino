@@ -8,7 +8,7 @@ Take a look at this example for instance, that receives commands from the serial
 https://github.com/cvasquez-github/arduino-serial-to-i2c-lcd
 
 # Java
-You need to write some Java code to be able to communicate your Unity project with the Arduino in Android.
+You need to write some Java code to communicate your Unity project with the Arduino board in Android through the USB serial port.
 In this example I created a custom Unity Activity to expose the necessary lower-level methods to Unity, take a look at the MyUnityPlayerActivity.java  file for reference.
 https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/MyUnityPlayerActivity.java
 
