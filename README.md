@@ -24,8 +24,8 @@ Then you need to call the Java class methods from Unity.
 Take a look at the UnityArduinoLCD.cs file, that is the one that talks to the Java code.
 https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/UnityArduinoLCD.cs
 
-- You first need to get the Unity Player Java Class: AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-- Then get the current activity Java Object out of it: AndroidJavaObject activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
-- Finally call the Java method on your current Activity: activity.Call("WriteLCD", new object[] { "line1", "line2" });  
+- You first need to get the Unity Player Java Class: `AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");`
+- Then get the current activity Java Object out of it: `AndroidJavaObject activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");`
+- Finally call the Java method on your current Activity: `activity.Call("WriteLCD", new object[] { "line1", "line2" });` 
 
 I used this on my Android-based 3D virtual pinball project to write the score of the game to a 16x2 LCD display, using an Arduino UNO board, from an nVidia Shield (Google TV).
