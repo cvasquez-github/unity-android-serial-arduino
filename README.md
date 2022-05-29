@@ -9,7 +9,7 @@ https://github.com/cvasquez-github/arduino-serial-to-i2c-lcd
 
 # Java
 You need to write some Java code to be able to communicate your Unity project with the Arduino in Android.
-In this example I created a custom Unity Activity to expose the necesary lower level methods to Unity, take a look at the MyUnityPlayerActivity.java  file for reference.
+In this example I created a custom Unity Activity to expose the necessary lower-level methods to Unity, take a look at the MyUnityPlayerActivity.java  file for reference.
 https://github.com/cvasquez-github/unity-android-serial-arduino/blob/main/MyUnityPlayerActivity.java
 
 Make sure you update the activity name in your Android Manifest XML file.
